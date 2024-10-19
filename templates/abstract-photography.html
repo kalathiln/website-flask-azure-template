@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="main project__heading--main">
+    <h2 class="project__heading">{{ project['name'] }}</h2>
+</section>
+
+<section class="main main--abstract-photography main--photography--quote">
+    <article>
+        "There is no abstract art. You must always start with something. Afterward you can remove all traces of reality." — <b>Pablo Picasso</b>
+    </article>
+</section>
+<section class="main main--abstract-photography main--photography--content">
+    <article>
+            The Abstract Photography project showcases a series of images exploring non-representational forms.
+            The photos capture vivid colors, textures, and shapes, aiming to evoke emotions and invite viewers to
+            interpret the abstract visuals in their own way.
+            The project highlights the artist's unique perspective on everyday elements, transforming them into striking
+            and imaginative pieces of art.
+    </article>
+</section>
+<section class="main main--abstract-photography">
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/brugge_canals.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Brugge Canals - Venice of the West">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/brugge_canals.jpg') }}" alt="">
+        </a>
+
+    </div>
+    <div class="img__gallery img__gallery__vertical">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/one_step_a_time.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Just One step at a time. | Library | Milan | Italy">
+        </a>
+        <img src="{{ url_for('static', filename='/img/abstract_photography/one_step_a_time.jpg') }}" alt="">
+    </div>
+
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/abstract_home_and_away.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Home and Away!">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/abstract_home_and_away.jpg') }}" alt="">
+        </a>
+
+    </div>
+    <div class="img__gallery img__gallery__vertical">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/good_ol_days.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Good Ol Days.">
+        </a>
+        <img src="{{ url_for('static', filename='/img/abstract_photography/good_ol_days.jpg') }}" alt="">
+    </div>
+
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/Milan_tram_shot.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Milan tram shot, Italy">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/Milan_tram_shot.jpg') }}" alt="">
+        </a>
+    </div>
+
+    <div class="img__gallery img__gallery__vertical">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/peace_on_the_east.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Peace to the East.">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/peace_on_the_east.jpg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__vertical">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/music_concert_darmstadt.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Schlossgraben Fest | Concert | Darmstadt.">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/music_concert_darmstadt.jpg') }}" alt="">
+        </a>
+    </div>
+
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/pirates_lighter_shot.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Lighter blazing away. Hostel time, Darmstadt">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/pirates_lighter_shot.jpg') }}" alt="">
+        </a>
+    </div>
+
+    <div class="img__gallery img__gallery__horizontal">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/rainy_cyclist_bnw.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Rainy Cyclist | Belgium">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/rainy_cyclist_bnw.jpg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/winter_canal_brugge.jpg') }}"
+            data-lightbox="abstract_photography" data-title="Winter in Brugge, Belgium">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/winter_canal_brugge.jpg') }}" alt="">
+        </a>
+    </div>
+
+    <!-- Second Addition -->
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/bhagavad_gita.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Light of Bhagvad Gita | Amsterdam">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/bhagavad_gita.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/bibo_portrait.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Bibo Contemplates | Darmstadt">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/bibo_portrait.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/hypnotic_moth.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Hynotic Moth | Kannur">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/hypnotic_moth.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/iam_free_not.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Repeat After Me - We Are Free! | Darmstadt">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/iam_free_not.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/london_beer_quotes.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="A quote to live by | London">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/london_beer_quotes.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/next_to_river_lucern.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Lanes of Lucern | Switzerland">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/next_to_river_lucern.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/otty_portrait.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Otty's Portrait">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/otty_portrait.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/pink_flowers.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Magnolia blooms | Deutschland">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/pink_flowers.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/san_beer_beach.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Sippin San Miguel on the Beach">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/san_beer_beach.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/red_light_amst.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Red Light lanes | Amsterdam">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/red_light_amst.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/smokey_scenes.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Smokey Aura | Fusion Festival 2023">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/smokey_scenes.jpeg') }}" alt="">
+        </a>
+    </div>
+    <div class="img__gallery img__gallery__large">
+        <a href="{{ url_for('static', filename='/img/abstract_photography/washbasin_pot.jpeg') }}"
+            data-lightbox="abstract_photography" data-title="Recycle for Nature">
+            <img src="{{ url_for('static', filename='/img/abstract_photography/washbasin_pot.jpeg') }}" alt="">
+        </a>
+    </div>
+
+</section>
+
+{% endblock %}
